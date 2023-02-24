@@ -2,3 +2,43 @@ baseURL: https://kimor5.github.io/
 languageCode: en-us
 title: Kimor Wu
 theme: "PaperMod"
+
+enableEmoji: true
+paginate: 7
+
+languages:
+    en:
+        languageName: "English"
+        taxonomies:
+          tag: tags
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    # theme setting
+    defaultTheme: dark
+    disableThemeToggle: false # whether to disable the 'ThemeSwitchingToggle'
+
+    # homepage style
+    homeInfoParams:
+        Title: Hi
+        Content: hi
+
+    socialIcons: # optional
+        - name: github
+          url: "https://github.com/kimor5"

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Kimor Wu</title>
-    <link>https://kimor5.github.io/</link>
-    <description>Recent content on Kimor Wu</description>
+    <title>time series on Kimor Wu</title>
+    <link>https://kimor5.github.io/tags/time-series/</link>
+    <description>Recent content in time series on Kimor Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Feb 2023 16:41:05 +0800</lastBuildDate><atom:link href="https://kimor5.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Feb 2023 16:41:05 +0800</lastBuildDate><atom:link href="https://kimor5.github.io/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TimesNet：一个任务通用型的时序分析基础模型</title>
       <link>https://kimor5.github.io/posts/work/paper-notes/timesnet/</link>
@@ -15,8 +15,6 @@
       <guid>https://kimor5.github.io/posts/work/paper-notes/timesnet/</guid>
       <description>THUML-LAB 在 ICLR&amp;#39;23 发表的时序分析方向最新工作，从“多周期”的新视角出发，将 1D 时序转换为 2D 张量表示来建模时序变化，提出了用于捕获 周期内 和 周期间 时序变化的模块 TimesBlock，进而提出了时序分析的基础模型 TimesNet，在时间序列的五大主流任务：长/短期预测、插补、分类、异常检测中均取得了 SOTA 水平。</description>
     </item>
-    
-    
     
   </channel>
 </rss>
